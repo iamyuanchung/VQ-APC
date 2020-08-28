@@ -31,7 +31,7 @@ Argument descriptions are available in `train_vqapc.py`.
 * Add scripts that visualize the code-phone co-occurrence (Figure 3 in the paper)
 
 ## Reference
-Please kindly cite our work if you find this repository useful!
+Please kindly cite our work if you find this repository useful:
 ```
 @inproceedings{chung2020vqapc,
   title = {Vector-quantized autoregressive predictive coding},
