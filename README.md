@@ -1,4 +1,6 @@
 ## Vector-Quantized Autoregressive Predictive Coding
+For an improved version of VQ-APC, please refer to this [repository](https://github.com/Alexander-H-Liu/NPC).
+
 This repository contains the official implementation of [Vector-Quantized Autoregressive Predictive Coding (VQ-APC)](https://arxiv.org/abs/2005.08392).
 
 VQ-APC is an extension of [APC](https://arxiv.org/abs/1904.03240), which defines a self-supervised task for learning high-level speech representation from unannotated speech. For dependencies and data preprocessing, please refer to the [implementation of APC](https://github.com/iamyuanchung/Autoregressive-Predictive-Coding). After the data are ready, here's an example command to train your own VQ-APC model:
@@ -26,7 +28,7 @@ python train_vqapc.py --rnn_num_layers 3 \
 ```
 Argument descriptions are available in `train_vqapc.py`.
 
-## TODO
+## TODOs
 * Add scripts that get the learned codebook(s) (essentially the parameters of the `nn.Linear` layer used to implement the VQ layers)
 * Add scripts that visualize the code-phone co-occurrence (Figure 3 in the paper)
 
